@@ -14,6 +14,7 @@
 		9694881E28527C490006C088 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694881D28527C480006C088 /* EndPoint.swift */; };
 		9694882028527D6B0006C088 /* FlickerEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694881F28527D6B0006C088 /* FlickerEndPoint.swift */; };
 		96948822285284F30006C088 /* FlickerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96948821285284F30006C088 /* FlickerModels.swift */; };
+		96948824285286C20006C088 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96948823285286C20006C088 /* NetworkEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9694881D28527C480006C088 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		9694881F28527D6B0006C088 /* FlickerEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerEndPoint.swift; sourceTree = "<group>"; };
 		96948821285284F30006C088 /* FlickerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerModels.swift; sourceTree = "<group>"; };
+		96948823285286C20006C088 /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9694881D28527C480006C088 /* EndPoint.swift */,
 				9694881F28527D6B0006C088 /* FlickerEndPoint.swift */,
 				96948821285284F30006C088 /* FlickerModels.swift */,
+				96948823285286C20006C088 /* NetworkEngine.swift */,
 				1B6047DE28506F69008AEDFD /* Assets.xcassets */,
 				1B6047E028506F69008AEDFD /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				1B6047DD28506F68008AEDFD /* ContentView.swift in Sources */,
 				9694882028527D6B0006C088 /* FlickerEndPoint.swift in Sources */,
+				96948824285286C20006C088 /* NetworkEngine.swift in Sources */,
 				9694881E28527C490006C088 /* EndPoint.swift in Sources */,
 				1B6047DB28506F68008AEDFD /* NetworkingAPIExampleApp.swift in Sources */,
 				96948822285284F30006C088 /* FlickerModels.swift in Sources */,
