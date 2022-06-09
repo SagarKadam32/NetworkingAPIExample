@@ -8,6 +8,7 @@
 import Foundation
 
 enum FlickerEndPoint : EndPoint {
+    
     case getSearchResults(searchText: String, page: Int)
 
     var scheme: String {
