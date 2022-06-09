@@ -11,6 +11,8 @@
 		1B6047DD28506F68008AEDFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6047DC28506F68008AEDFD /* ContentView.swift */; };
 		1B6047DF28506F69008AEDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6047DE28506F69008AEDFD /* Assets.xcassets */; };
 		1B6047E228506F69008AEDFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6047E128506F69008AEDFD /* Preview Assets.xcassets */; };
+		9694881E28527C490006C088 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694881D28527C480006C088 /* EndPoint.swift */; };
+		9694882028527D6B0006C088 /* FlickerEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694881F28527D6B0006C088 /* FlickerEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1B6047DC28506F68008AEDFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B6047DE28506F69008AEDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B6047E128506F69008AEDFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9694881D28527C480006C088 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		9694881F28527D6B0006C088 /* FlickerEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerEndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				1B6047DA28506F68008AEDFD /* NetworkingAPIExampleApp.swift */,
 				1B6047DC28506F68008AEDFD /* ContentView.swift */,
+				9694881D28527C480006C088 /* EndPoint.swift */,
+				9694881F28527D6B0006C088 /* FlickerEndPoint.swift */,
 				1B6047DE28506F69008AEDFD /* Assets.xcassets */,
 				1B6047E028506F69008AEDFD /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6047DD28506F68008AEDFD /* ContentView.swift in Sources */,
+				9694882028527D6B0006C088 /* FlickerEndPoint.swift in Sources */,
+				9694881E28527C490006C088 /* EndPoint.swift in Sources */,
 				1B6047DB28506F68008AEDFD /* NetworkingAPIExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
