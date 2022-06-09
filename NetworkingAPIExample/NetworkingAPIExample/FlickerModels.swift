@@ -6,7 +6,7 @@
 //
 
 import Foundation
-/*
+
 struct FlickerResponse: Codable {
     let photos: FlickerResultPage?
 }
@@ -24,6 +24,5 @@ struct FlickerPhoto: Codable {
     let server: String
     let farm: Int
 }
- */
 
 
