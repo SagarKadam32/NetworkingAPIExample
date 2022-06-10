@@ -28,7 +28,7 @@ enum FlickerEndPoint : EndPoint {
     var path: String {
         switch self {
         case .getSearchResults:
-            return "services/rest"
+            return "/services/rest"
         }
     }
     
