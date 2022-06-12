@@ -9,19 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-     //   Text("Hello, world!")
-       //     .padding()
-        
+
         Button("Hit Me") {
-            NetworkEngine.request(endPoint: FlickerEndPoint.getSearchResults(searchText: "iOS", page: 1)) { (result: Result<FlickerResponse, Error>) in
-                
-                switch result {
-                case .success(let response):
-                    print("Response: ", response)
-                case .failure(let error):
-                    print("Error: ",error)
+            DispatchQueue.main.async {
+                NetworkEngine.request(endPoint: FlickerEndPoint.getSearchResults(searchText: "iOS", page: 1)) { (result: Result<FlickerResponse, Error>) in
+                    
+                    switch result {
+                    case .success(let response):
+                        print("Response: ", response)
+                    case .failure(let error):
+                        print("Error: ",error)
+                    }
                 }
             }
+
         }
     }
 }
